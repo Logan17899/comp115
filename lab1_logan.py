@@ -32,7 +32,7 @@ Objective (By the end of this lab, you will be able to):
 # Then modify the code below so that it prints "Hello, Alice!" instead.
 #---------------------------------------------------------
 
-print("Hello, World!")
+print("Hello, Alice!")
 
 #---------------------------------------------------------
 # Exercise 2 (20 marks)- syntax error 
@@ -58,7 +58,7 @@ print("The area of a rectangle with length 3 and width 4 is", 3 * 4)
 # Then change the variable values from line 61 to 65 to your info. 
 #---------------------------------------------------------
 
-name = "Logan"
+name = "Logan Hoy"
 hobby = "soccer"
 coding_experience = "beginner"
 weekly_hours_learn_coding = 7
