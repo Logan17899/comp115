@@ -40,7 +40,7 @@ print(f"Exercise 1: new_num stores the value of {new_num}.")
 dividend = 10
 divisor = 3
 
-division_result = dividend // divisor
+division_result = dividend / divisor
 
 quotient = dividend // divisor     # The quotient should be 3
 remainder = dividend % divisor    # The remainder should be 1
@@ -121,4 +121,5 @@ print(f"Your trip starts on day {day_today}, lasts {days_trip} days. You are bac
 # 2. upload your lab2 python file to your GitHub "comp115" repository.
 # 3. submit your github comp115 repo link on the e-learn.
 # Great job. Congratulations on finishing your lab2!
+
 #---------------------------------------------------------
