@@ -231,7 +231,12 @@ Uncomment the unit tests below to verify your function implementation.
 
 # Function implementation 
 def repeat_elements(nums):
-    return [num for num in nums for _ in range(2)]
+    result = []
+    for n in nums:
+        result.append(n)
+        result.append(n)
+    return result
+       
 
 
 assert repeat_elements([1, 2, 3, 4]) == [1, 1, 2, 2, 3, 3, 4, 4]
@@ -243,4 +248,5 @@ assert squares([]) == []
 """
 Congratulations on finishing your lab5. This is a big move!
 Now upload to your GitHub repository, and paste your GitHub link on e-learn.
+
 """
